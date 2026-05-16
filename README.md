@@ -170,6 +170,66 @@ Early versions of Revenue Change % and Churn Rate were returning values like 201
 
 ---
 
+## Actionable Insights
+
+### What Was Discovered and Why It Matters
+
+**Churn is the most urgent business risk.**
+A 47.1% churn rate means nearly one in two users left the platform over the four-year period. Combined with $2,432.86 in lost MRR from churn events alone, this is not a data observation — it is a business emergency. Every revenue gain from upgrades is being partially cancelled by users walking out the door. Until churn is addressed, sustainable MRR growth is impossible.
+
+**Free users are both the biggest revenue source and the biggest liability.**
+The Free plan generates $12,858.96 in MRR — the highest of all tiers. But Free users skip 1 in 5 tracks and average only 78.4 seconds of listen time per session compared to 99 seconds for Family users. The platform is heavily dependent on a tier that is least committed to it. This imbalance creates fragile revenue that is one cancellation decision away from disappearing.
+
+**France punches above its weight — and shows what good looks like.**
+With 98 users and $121.04 in revenue, France generates more value per user than any other market. Canada has 126 users but earns less. France's engagement quality — not its size — is what drives its revenue leadership. This matters because it tells the business where to look when setting benchmarks for other markets.
+
+**Reconciliation events are masking true organic growth.**
+At $2,648.24, reconciliation is the single largest MRR driver in the upgrade source breakdown — exceeding organic ($1,493.74) and referral ($819.25). Reconciliation represents system corrections, not real customer-driven growth. Stripping it out reveals that organic revenue performance is significantly lower than headline figures suggest.
+
+**The fraud cluster puts every metric in question.**
+With 50.2% of users flagged as a fraud cluster, the reliability of all platform metrics — sessions, engagement, revenue — must be treated with caution. If fraud cluster users are artificially inflating session counts, the true average listen duration, skip rate, and engagement scores for genuine users could look very different from what the dashboard currently reports.
+
+---
+
+### Recommended Next Steps With Expected Impact
+
+**1. Launch a churn prevention programme immediately.**
+Identify users whose listen duration has declined by more than 30% over a 30-day rolling window and trigger an automated retention offer before they cancel. Target the 453 already-churned users with a re-engagement campaign offering a discounted return plan. Expected impact: recovering 10% of churned users restores approximately $243 in monthly MRR.
+
+**2. Run a Free-to-Paid conversion campaign targeting heavy Free users.**
+Identify the top 25% of Free users by session count and listen duration and offer them a 30-day Premium trial. France, Canada, and the United States are the priority markets given their session volume and revenue performance. Expected impact: a 10% conversion rate on 311 Free users adds approximately $311 in monthly recurring revenue.
+
+**3. Conduct a full fraud cluster audit before the next reporting cycle.**
+Separate fraud cluster users from the clean user base and rerun all key metrics — sessions, listen duration, skip rate, revenue, on clean users only. This produces a true picture of genuine platform health and eliminates the distortion that is currently baked into every headline number. Expected impact: restated metrics that leadership can trust and act on with confidence.
+
+**4. Capitalise on the December revenue peak with a seasonal campaign.**
+December is the highest revenue month at $1,763.60 — driven by holiday and festive activity. A structured November promotional campaign (limited time upgrade offer, gifting feature, family plan push) timed to capture the rising seasonal wave could meaningfully amplify this natural peak. Expected impact: even a 15% uplift on the December baseline adds approximately $264 in a single month.
+
+**5. Invest in the Sweden market or reassess its priority.**
+Sweden has the lowest user count (73), the fewest sessions (14,829), and the lowest revenue ($57.24) of all 10 markets. Either a targeted localisation and acquisition campaign is needed to bring it up to average market performance, or resources should be reallocated to higher-performing markets. Expected impact: bringing Sweden to the average market revenue level would add approximately $47 in monthly revenue.
+
+---
+
+### Areas for Deeper Investigation and Additional Data
+
+**Content performance data is missing and it matters.**
+The dataset contains artist, track, genre, and playlist IDs but no corresponding dimension tables. This means the analysis cannot answer which content is driving the most plays, revenue, or discovery events. Adding dimension tables for artists, tracks, and genres would unlock a full content performance layer, including which catalogue investments are paying off and which are not.
+
+**Device dimension data would sharpen platform strategy.**
+Windows leads all platforms with 52,707 sessions but without a device dimension table the analysis is limited to device IDs. A full device dimension would reveal device type, operating system version, and platform category, enabling proper mobile vs desktop vs smart TV comparison and informing where product investment should be prioritised.
+
+**Pre-churn behaviour signals need longitudinal tracking.**
+The current dataset shows what happened, churn events, but not the listening behaviour trajectory in the weeks leading up to each churn event. Building a pre-churn behaviour model using rolling averages of listen duration and skip rate in the 30 and 60 days before a churn event would create a leading indicator that gives the business time to intervene before the user leaves.
+
+**Fraud cluster severity scoring is needed.**
+The current fraud flag is binary, a user is either in the fraud cluster or not. A severity score based on session frequency, listen duration patterns, and revenue anomalies would allow the business to distinguish confirmed bot accounts from mildly suspicious ones, enabling a more targeted and proportionate response.
+
+**Cohort analysis would reveal retention patterns over time.**
+Grouping users by their signup month and tracking their subscription status month by month would show how long users typically stay, when churn risk peaks, and whether certain cohorts perform better than others. This is essential for understanding the true lifetime value of different user segments and optimising acquisition spend accordingly.
+
+---
+
+
 ## Deliverables
 
 - ✅ 3-view interactive Excel dashboard (Dashboard · Analysis · Executive Summary)
@@ -177,15 +237,6 @@ Early versions of Revenue Change % and Churn Rate were returning values like 201
 - ✅ Full DAX measure
 - ✅ Power Query transformation pipeline across 3 tables
 - ✅ Full analytical Word report with executive summary, findings, and recommendations
-
----
-
-## What I Would Do Next With More Data
-
-- **Add dimension tables** for artists, tracks, genres, and devices to enable full content and platform analysis
-- **Build a churn prediction model** using pre-churn listening behaviour signals (declining duration, rising skip rate)
-- **Segment fraud cluster users** by behaviour severity rather than a binary flag, to distinguish mild anomalies from confirmed bot activity
-- **Add cohort analysis** to track how user behaviour evolves from signup month through to churn or retention
 
 ---
 
