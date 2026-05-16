@@ -174,10 +174,9 @@ Early versions of Revenue Change % and Churn Rate were returning values like 201
 
 - ✅ 3-view interactive Excel dashboard (Dashboard · Analysis · Executive Summary)
 - ✅ Star schema data model in Power Pivot
-- ✅ Full DAX measure library (15+ measures)
+- ✅ Full DAX measure
 - ✅ Power Query transformation pipeline across 3 tables
 - ✅ Full analytical Word report with executive summary, findings, and recommendations
-- ✅ LinkedIn post and portfolio write-up
 
 ---
 
