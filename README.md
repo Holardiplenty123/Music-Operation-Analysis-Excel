@@ -152,7 +152,7 @@ At $2,648.24, reconciliation events account for the highest total MRR impact of 
 The monthly revenue trend shows a significant December spike at $1,763.60, the highest single month across the 4-year period. This is consistent with holiday and festive activity driving increased listening and subscription activity. The pattern suggests **seasonal campaigns timed for November-December could amplify this natural peak.**
 
 ### 7. The Fraud Cluster Is a Critical Data Integrity Risk
-50.2% of users — 482 out of 961, are flagged as part of a fraud cluster. This means all engagement metrics (sessions, listen duration, skip rate, revenue) must be treated as indicative rather than conclusive until fraud cluster users are excluded and reanalysed. **The true health of the platform's engagement may look significantly different once the fraud cluster is isolated.**
+50.2% of users, 482 out of 961, are flagged as part of a fraud cluster. This means all engagement metrics (sessions, listen duration, skip rate, revenue) must be treated as indicative rather than conclusive until fraud cluster users are excluded and reanalysed. **The true health of the platform's engagement may look significantly different once the fraud cluster is isolated.**
 
 ### 8. Family Tier Has the Highest Engagement Quality
 Despite generating less MRR than Premium, Family tier users have the highest average listen duration (99 seconds) and the lowest skip rate (9.2%). This makes Family users the most engaged segment on the platform, a finding that has direct implications for content strategy and retention investment prioritisation.
@@ -183,16 +183,16 @@ Early versions of Revenue Change % and Churn Rate were returning values like 201
 A 47.1% churn rate means nearly one in two users left the platform over the four-year period. Combined with $2,432.86 in lost MRR from churn events alone, this is not a data observation — it is a business emergency. Every revenue gain from upgrades is being partially cancelled by users walking out the door. Until churn is addressed, sustainable MRR growth is impossible.
 
 **Free users are both the biggest revenue source and the biggest liability.**
-The Free plan generates $12,858.96 in MRR — the highest of all tiers. But Free users skip 1 in 5 tracks and average only 78.4 seconds of listen time per session compared to 99 seconds for Family users. The platform is heavily dependent on a tier that is least committed to it. This imbalance creates fragile revenue that is one cancellation decision away from disappearing.
+The Free plan generates $12,858.96 in MRR, the highest of all tiers. But Free users skip 1 in 5 tracks and average only 78.4 seconds of listen time per session compared to 99 seconds for Family users. The platform is heavily dependent on a tier that is least committed to it. This imbalance creates fragile revenue that is one cancellation decision away from disappearing.
 
 **France punches above its weight — and shows what good looks like.**
-With 98 users and $121.04 in revenue, France generates more value per user than any other market. Canada has 126 users but earns less. France's engagement quality — not its size — is what drives its revenue leadership. This matters because it tells the business where to look when setting benchmarks for other markets.
+With 98 users and $121.04 in revenue, France generates more value per user than any other market. Canada has 126 users but earns less. France's engagement quality, not its size, is what drives its revenue leadership. This matters because it tells the business where to look when setting benchmarks for other markets.
 
 **Reconciliation events are masking true organic growth.**
-At $2,648.24, reconciliation is the single largest MRR driver in the upgrade source breakdown — exceeding organic ($1,493.74) and referral ($819.25). Reconciliation represents system corrections, not real customer-driven growth. Stripping it out reveals that organic revenue performance is significantly lower than headline figures suggest.
+At $2,648.24, reconciliation is the single largest MRR driver in the upgrade source breakdown, exceeding organic ($1,493.74) and referral ($819.25). Reconciliation represents system corrections, not real customer-driven growth. Stripping it out reveals that organic revenue performance is significantly lower than headline figures suggest.
 
 **The fraud cluster puts every metric in question.**
-With 50.2% of users flagged as a fraud cluster, the reliability of all platform metrics — sessions, engagement, revenue — must be treated with caution. If fraud cluster users are artificially inflating session counts, the true average listen duration, skip rate, and engagement scores for genuine users could look very different from what the dashboard currently reports.
+With 50.2% of users flagged as a fraud cluster, the reliability of all platform metrics, sessions, engagement, revenue, must be treated with caution. If fraud cluster users are artificially inflating session counts, the true average listen duration, skip rate, and engagement scores for genuine users could look very different from what the dashboard currently reports.
 
 ---
 
@@ -205,7 +205,7 @@ Identify users whose listen duration has declined by more than 30% over a 30-day
 Identify the top 25% of Free users by session count and listen duration and offer them a 30-day Premium trial. France, Canada, and the United States are the priority markets given their session volume and revenue performance. Expected impact: a 10% conversion rate on 311 Free users adds approximately $311 in monthly recurring revenue.
 
 **3. Conduct a full fraud cluster audit before the next reporting cycle.**
-Separate fraud cluster users from the clean user base and rerun all key metrics — sessions, listen duration, skip rate, revenue, on clean users only. This produces a true picture of genuine platform health and eliminates the distortion that is currently baked into every headline number. Expected impact: restated metrics that leadership can trust and act on with confidence.
+Separate fraud cluster users from the clean user base and rerun all key metrics, sessions, listen duration, skip rate, revenue, on clean users only. This produces a true picture of genuine platform health and eliminates the distortion that is currently baked into every headline number. Expected impact: restated metrics that leadership can trust and act on with confidence.
 
 **4. Capitalise on the December revenue peak with a seasonal campaign.**
 December is the highest revenue month at $1,763.60 — driven by holiday and festive activity. A structured November promotional campaign (limited time upgrade offer, gifting feature, family plan push) timed to capture the rising seasonal wave could meaningfully amplify this natural peak. Expected impact: even a 15% uplift on the December baseline adds approximately $264 in a single month.
