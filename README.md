@@ -1,8 +1,14 @@
 # Music Operation Dashboard — Analytical Report on a Music Streaming Platform
 
 **Tool:** Microsoft Excel (Power Query · Power Pivot · DAX)
+
+
 **Dataset Period:** January 2021 – December 2024
+
+
 **Markets Covered:** 10 Global Markets
+
+
 **Category:** Business Intelligence · Subscription Analytics · Revenue Analysis
 
 ---
