@@ -180,12 +180,12 @@ Early versions of Revenue Change % and Churn Rate were returning values like 201
 ### What Was Discovered and Why It Matters
 
 **Churn is the most urgent business risk.**
-A 47.1% churn rate means nearly one in two users left the platform over the four-year period. Combined with $2,432.86 in lost MRR from churn events alone, this is not a data observation — it is a business emergency. Every revenue gain from upgrades is being partially cancelled by users walking out the door. Until churn is addressed, sustainable MRR growth is impossible.
+A 47.1% churn rate means nearly one in two users left the platform over the four-year period. Combined with $2,432.86 in lost MRR from churn events alone, this is not a data observation, it is a business emergency. Every revenue gain from upgrades is being partially cancelled by users walking out the door. Until churn is addressed, sustainable MRR growth is impossible.
 
 **Free users are both the biggest revenue source and the biggest liability.**
 The Free plan generates $12,858.96 in MRR, the highest of all tiers. But Free users skip 1 in 5 tracks and average only 78.4 seconds of listen time per session compared to 99 seconds for Family users. The platform is heavily dependent on a tier that is least committed to it. This imbalance creates fragile revenue that is one cancellation decision away from disappearing.
 
-**France punches above its weight — and shows what good looks like.**
+**France punches above its weight and shows what good looks like.**
 With 98 users and $121.04 in revenue, France generates more value per user than any other market. Canada has 126 users but earns less. France's engagement quality, not its size, is what drives its revenue leadership. This matters because it tells the business where to look when setting benchmarks for other markets.
 
 **Reconciliation events are masking true organic growth.**
