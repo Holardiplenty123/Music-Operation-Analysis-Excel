@@ -166,7 +166,7 @@ The `skipped` column stored TRUE/FALSE as boolean values, causing `SUM` to fail.
 Linking two fact tables directly creates a many-to-many relationship that Power Pivot cannot resolve correctly. I avoided this entirely by routing all relationships through `dim_user` as the central dimension table — following star schema best practice and ensuring all measures filtered correctly.
 
 **Challenge 4 — Inflated percentage measures**
-Early versions of Revenue Change % and Churn Rate were returning values like 2018% and 6608% due to dividing totals by small monthly denominators. I rebuilt both measures using year-over-year comparison for revenue and distinct user counts for churn — returning accurate, meaningful percentages.
+Early versions of Revenue Change % and Churn Rate were returning values like 2018% and 6608% due to dividing totals by small monthly denominators. I rebuilt both measures using year-over-year comparison for revenue and distinct user counts for churn, returning accurate, meaningful percentages.
 
 ---
 
@@ -187,15 +187,6 @@ Early versions of Revenue Change % and Churn Rate were returning values like 201
 - **Build a churn prediction model** using pre-churn listening behaviour signals (declining duration, rising skip rate)
 - **Segment fraud cluster users** by behaviour severity rather than a binary flag, to distinguish mild anomalies from confirmed bot activity
 - **Add cohort analysis** to track how user behaviour evolves from signup month through to churn or retention
-
----
-
-## Connect With Me
-
-If you found this project useful or want to discuss the approach, connect with me on LinkedIn or check out my other projects on GitHub.
-
-**GitHub:** github.com/Holardiplenty123
-**LinkedIn:** Adigun Samuel
 
 ---
 
